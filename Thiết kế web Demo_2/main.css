@@ -1,0 +1,28 @@
+.menu-nav .nav-item .nav-link:hover, .menu-nav .nav-item  .active{
+    color: red !important;
+}
+
+.option{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateY(100%);
+}
+
+.box:hover .option{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.option-active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
