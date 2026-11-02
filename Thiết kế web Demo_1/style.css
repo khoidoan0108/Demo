@@ -1,0 +1,294 @@
+/* Header */
+header{
+    background-color: var(--black-color-5);
+    padding: 20px 0;
+    font-size: 11px;
+}
+
+.header__top{
+    border-bottom: 1px solid var(--stroke-color);
+    padding-bottom: 15px;
+}
+
+.form__search{
+    width: 30%;
+}
+
+.form__search input{
+    border: none;
+    background-color: none;
+    width: 80%;
+}
+
+.form__search input:focus{
+    outline: none;
+    border-bottom: 1px solid var(--primary-color-100);
+}
+
+.header__top img{
+    width: 100px;
+}
+
+.header__top-user{
+    list-style: none;
+}
+
+.header__top-user li{
+    padding-left: 10px;
+    align-items: center;
+}
+
+.header__nav-menu{
+    padding-top: 25px;
+}
+
+/* Main */
+.main__top{
+    height: 500px;
+    background: var(--black-color-5) url(imgs/flower-pattern.png) no-repeat;
+    background-size: 100%;
+}
+
+.main__col-left-top{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    row-gap: 40px;
+}
+
+.main__col-left-top button{
+    width: 120px;
+    text-align: center;
+    background-color: var(--dark-color-100);
+    color: var(--white-color-100);
+    padding: 10px 0;
+}
+
+.main__col-right-top{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main__col-right-top img{
+    width: 60%;
+    height: 70%;
+    border-top-left-radius: 40% ;
+    border-bottom-right-radius: 40% ;
+    position: absolute;
+    left: 16%;
+    top: 12%;
+}
+
+.box__border{
+    border: 2px solid var(--black-color-100);
+    width: 60%;
+    height: 70%;
+    border-top-left-radius: 45% ;
+    border-bottom-right-radius: 50% ;
+}
+
+.main__brand{
+    padding: 40px 0;
+}
+
+.main__brand img{
+    width: 120px;
+}
+
+.main__explore-new{
+    position: relative;
+}
+
+.main__explore-text{
+    position: absolute;
+    top: 275px;
+    left: -80px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+.main__explore-new img{
+    width: 100%;
+}
+
+.explore__new-right img{
+    height: 100%;
+}
+
+.main__subscribe{
+    padding: 30px 0;
+}
+
+.main__subscribe p.headline2{
+    text-align: center;
+}
+
+.subscrible__top-menu{
+    width: 50%;
+}
+
+.subscrible__top{
+    padding: 30px 0;
+}
+
+.subscrible__top button.button-small{
+    background-color: var(--dark-color-100);
+    color: var(--white-color-100);
+    padding: 5px;
+}
+
+.main__card img{
+    width: 100%;
+} 
+
+.main__card p.headline6{
+    padding: 15px 0;
+}
+
+.main__card{
+    position: relative;
+}
+
+.main__card .btn-hot, .main__card .btn-sale{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: var(--white-color-100);
+    text-transform: uppercase;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: var(--dark-color-100);
+}
+
+.main__card .btn-hot{
+    background-color: var(--primary-color-100);
+}
+
+.span__card-sale{
+    color: var(--primary-color-100);
+    padding-left: 5px;
+}
+
+.span__line-through {
+    position: relative;
+    bottom: -3px;
+    font-weight: 300;
+    color: var(--black-color-25);
+}
+
+.main__zara{
+    background: url(imgs/zara.webp) no-repeat center bottom;
+    background-size: 100% 100%;
+    height: 650px;
+}
+
+.main__box-zara{
+    width: 60%;
+}
+
+.main__box-content{
+    width: 40%;
+    color: var(--white-color-100);
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.main__box-content img{
+    width: 180px;
+}
+
+.main__zara .button{
+    width: 150px;
+    padding: 10px;
+}
+
+.main__follow {
+    background-color: var(--black-color-25);
+    padding: 40px 0;
+}
+
+.main__follow img{
+    width: 100%;
+    height: 80%;
+}
+
+.main__follow .headline2{
+    text-align: center;
+}
+
+.main__submit{
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.main__submit input.input-text{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid var(--black-color-100) ;
+    padding: 5px 15px;
+    background-color: transparent;
+}
+
+.main__submit input.input-text:focus{
+    outline: none;
+    border-bottom: 2px solid var(--primary-color-100) ;
+}
+
+.main__submit-input{
+    width: 15%;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid var(--black-color-100) ;
+}
+
+.main__submit-input:hover{
+    outline: none;
+    border-bottom: 2px solid var(--primary-color-100);
+    color: var(--primary-color-100);
+}
+
+/* Footer */
+.footer__top{
+    display: grid;
+    grid-template-columns: 36% 22% 22% 20%;
+    gap: 30px;
+    padding: 90px 0 70px 0;
+}
+
+.footer__icon-left{
+   width: 50%; 
+}
+
+.footer__top p.A{
+   padding: 20px 0; 
+}
+
+.main__footer-box ul li{
+    list-style: none;
+    padding: 7px 0;
+}
+
+.footer__bottom{
+    background-color: var(--black-color-100);
+    color: var(--white-color-100);
+    line-height: 40px;
+}
+
+.footer__bottom img{
+    height: 80%;
+    margin-top: 10px;   
+}
+
+.footer__bottom a{
+    color: var(--white-color-100);
+}

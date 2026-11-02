@@ -1,0 +1,138 @@
+.headline1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-size: 67px;
+}
+
+.headline2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.headline3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 37px;
+}
+
+.headline4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.headline5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.headline6{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.subtitle1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.subtitle2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.body-large{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 55px;
+}
+
+.body-small{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button-large{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.button-small{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.span2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.span3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.A{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.A2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.input-text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.overline{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.paragraph-large{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height:40px;
+}

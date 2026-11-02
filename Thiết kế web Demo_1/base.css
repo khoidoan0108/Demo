@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color-100: #ff6f61;
+    --primary-color-75:rgba(255,111,97,.75); 
+    --primary-color-50:rgba(255,111,97,.5); 
+    --primary-color-25:rgba(255,111,97,.25); 
+    --primary-color-10:rgba(255,111,97,.1); 
+    --primary-color-5:rgba(255,111,97,.05);
+
+    --black-color-100: #1E2832; 
+    --black-color-75: rgba(30, 40, 50,.75);
+    --black-color-50:rgba(30, 40, 50,.5); 
+    --black-color-25:rgba(30, 40, 50,.25); 
+    --black-color-10:rgba(30, 40, 50,.1); 
+    --black-color-5:rgba(30, 40, 50,.05);
+    
+    --white-color-100: #fff;
+    --white-color-75 : rgba(255, 255, 255,.75);
+    --white-color-50 : rgba(255, 255, 255,.5);
+    --white-color-25 : rgba(255, 255, 255,.25);
+    --white-color-10 : rgba(255, 255, 255,.1);
+    --white-color-5 : rgba(255, 255, 255,.05);
+
+    --dark-color-100 : #000 ;
+    --dark-color-75 :rgba(0, 0, 0,.75) ;
+    --dark-color-50 :rgba(0, 0, 0,.5) ;
+    --dark-color-25 :rgba(0, 0, 0,.25) ;
+    --dark-color-10 :rgba(0, 0, 0,.1) ;
+    --dark-color-5 :rgba(0, 0, 0,.05) ;
+
+    --stroke-color: #E3E3E3;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: var(--black-color-100);
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black-color-100)
+}
+
+
+.display__flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display__grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.display__grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.display__grid-6{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    padding: 30px 0;
+}
